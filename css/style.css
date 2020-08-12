@@ -1,0 +1,68 @@
+
+p{
+    font-size: 14px;
+}
+h1{
+    font-size: 24px;
+    margin: 0;
+}
+/*クラス属性の時はドットを入れる*/
+.content{
+    /*background-color:　#ff000*/
+    background-color: rgb(255, 255, 255);
+   /*widthは幅の意味*/
+    width: 600px;
+    /*空白の設定*/
+ /*   margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;*/
+    margin: 10px auto ;
+    /*margin: 0 auto;*/
+
+    /*solid:実線*/
+    border: 1px solid #d1d1d1;
+
+    /*内側の余白のこと*/
+    padding: 30px;
+}
+input{
+        border: none;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 1.2em;/*emとは元々の文字の大きさの倍今回は1.2倍*/
+        width: 100%;/*%元々ある幅を何パーセントにするか*/
+        padding: 8px;
+    }
+button{
+    width: 100%;
+    background-color:#2096f3 ;
+    color: #fff;
+    padding: 15px;
+    border: 0;
+    border-radius: 3px;
+    /*x,yを変更すると影が変化する（x,y,ぼかし）*/
+    /*形に注意をしよう*/
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);/*.4所は不透明度（自然な影を作成する）*/
+}
+
+.required{
+    color: #f33;
+    font-size: .9em;
+    padding: 2px;
+    background-color: #fee;
+    /*フォントの太さ*/
+    font-weight: bold;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.control{
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: .5em;
+}

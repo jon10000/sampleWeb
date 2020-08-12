@@ -1,0 +1,48 @@
+<!DOCTYPE html><!ドキュメントタイプ-->
+<html>
+<!headの中では様々な設定を行っていく-->
+ <head>
+     <!metaはhtmlの性格を表しているもの-->
+    <meta charset="UTF-8">
+    
+    <!viewportはスマホなどの画面の大きさの設定-->
+    <!width=device-widthは端末の大きさに合わせる-->
+    <meta name="viewport" content="width=device-width">
+    
+    <!h1タグと同じようにすることが多いい>
+    <title>入金申し込み</title>
+
+    <style>
+    </style>
+
+    <!relとはリレーションの意味：スタイルシートにリンクしてますよ-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sanitize.css">
+</head>   
+
+<body>
+    <!このdivはcontentの名前ですよと区別をしている-->
+    <div class = "content">
+    <h1 style=>入会申し込み</h1>
+
+    <p>入会するには、次のフォームに必要事項をご記入ください</p>
+
+    <div class = "control">
+        <label for = "mymail">メールアドレス <span class = "required">必須</span></label>　
+        <input  id = "mymail" tyep= "email" name = "mymail">
+    </div>
+
+    <div class = "control">
+         <label for = "password">パスワード <span class = "required">必須</span></labelfor></label>
+         <input id = "password" tyep= "password" name = "password">
+    </div>
+
+    <div class = "control">
+        <button type ="submit">登録する</button><!入会の時になどの記入時の送信ボタン-->
+    </div>
+
+    </div>
+
+</body>
+
+</html>
